@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spandan Heart Clinic | Dr. Arvind Sharma - Senior Cardiologist</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Spandan Heart Clinic by Dr. Arvind Sharma offers affordable, modern heart care and cardiac diagnostics (ECG, 2D Echo) for families in rural areas and small towns.">
+    <meta name="keywords" content="Heart Doctor, Cardiologist, Dr. Arvind Sharma, Spandan Heart Clinic, ECG, 2D Echo, Blood Pressure, Rural Clinic, Heart Specialist">
+    <meta name="author" content="Dr. Arvind Sharma">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Spandan Heart Clinic | Dr. Arvind Sharma - Cardiologist">
+    <meta property="og:description" content="Providing trusted, high-quality, and affordable cardiac care. Book your appointment today.">
+    <meta property="og:image" content="assets/images/doctor_hero.png">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- TOP EMERGENCY ALERT BAR (For Elderly/Urgent patients) -->
+    <div class="emergency-bar" role="alert">
+        <div class="container emergency-bar-content">
+            <span class="emergency-text">
+                <svg class="icon animate-pulse" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                </svg>
+                <strong>24/7 Emergency Helpline:</strong> For chest pain or breathing issues, call us immediately: 
+            </span>
+            <a href="tel:+919876543210" class="emergency-link">
+                <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+                +91 98765 43210
+            </a>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo-area" aria-label="Spandan Heart Clinic Home">
+                <!-- Heartbeat Logo Icon -->
+                <div class="logo-icon">
+                    <svg viewBox="0 0 100 100" width="45" height="45">
+                        <circle cx="50" cy="50" r="45" fill="var(--primary-light)"/>
+                        <path d="M15 50h15l8-25 10 50 8-35 8 15h21" fill="none" stroke="var(--secondary)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M50 25c-3-6-11-6-14 0l14 20 14-20c-3-6-11-6-14 0z" fill="var(--secondary)" transform="translate(0, 5) scale(0.6) translate(-50, -25)"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="clinic-name">Spandan Clinic</span>
+                    <span class="doc-title">Dr. Arvind Sharma (Heart Specialist)</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Doctor</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#appointment" class="btn btn-primary btn-nav-cta">
+                    <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                    </svg>
+                    Book Appointment
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="mobileNav">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile Navigation" aria-hidden="true">
+        <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About Doctor</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#facilities" class="mobile-nav-link">Facilities</a></li>
+            <li><a href="#testimonials" class="mobile-nav-link">Reviews</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            <li>
+                <a href="#appointment" class="btn btn-primary mobile-cta-btn">Book Appointment</a>
+            </li>
+            <li>
+                <a href="tel:+919876543210" class="btn btn-accent mobile-cta-btn">
+                    <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    Call Doctor Now
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                    Your Trusted Village Cardiologist
+                </span>
+                <h1 class="hero-title">Trusted Heart Care for You and Your Family</h1>
+                <p class="hero-subtitle">Providing quality cardiac care with compassion, simple explanations, and modern diagnostic facilities. You don't need to travel to the city for heart tests anymore.</p>
+                
+                <div class="hero-ctas">
+                    <a href="#appointment" class="btn btn-primary btn-lg">
+                        <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/>
+                        </svg>
+                        Book Appointment
+                    </a>
+                    <a href="tel:+919876543210" class="btn btn-outline btn-lg">
+                        <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        Call Doctor Now
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="15000">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Patients Treated</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="18">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="20000">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Consultations Done</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <div class="hero-image-backdrop"></div>
+                <img src="doctor_hero.webp" alt="Dr. Arvind Sharma welcoming patients in clinic" class="hero-img">
+                <div class="floating-badge badge-1">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--secondary)">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <div class="badge-text">
+                        <strong>100%</strong>
+                        <span>Safe Heart Care</span>
+                    </div>
+                </div>
+                <div class="floating-badge badge-2">
+    <a href="marathi.html" class="language-badge-link">
+        <div class="badge-icon">
+            <span style="font-size:20px;">🌐</span>
+        </div>
+
+        <div class="badge-text">
+            <strong>मराठी</strong>
+            <span>Click Here</span>
+        </div>
+    </a>
+</div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT DOCTOR SECTION -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Know Your Doctor</span>
+                <h2 class="section-title">Meet Dr. Arvind Sharma</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Dedicated to bringing international-standard cardiology treatments directly to rural communities.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-img-area">
+                    <div class="profile-card">
+                        <img src="doctor_profile.webp" alt="Dr. Arvind Sharma - Senior Heart Specialist" class="profile-img">
+                        <div class="profile-signature">
+                            <span class="doctor-signature-text">Dr. Arvind Sharma</span>
+                            <span class="doctor-designation">Founder & Lead Cardiologist</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-info-area">
+                    <h3 class="about-greet">"My mission is to ensure that no heart in our villages suffers due to lack of timely, high-quality medical guidance."</h3>
+                    <p class="about-text">Dr. Arvind Sharma is a senior cardiologist with over 18 years of experience. After practicing in premier hospitals across metro cities, he decided to open Spandan Heart Clinic to serve people in rural districts and villages who often have to travel hundreds of kilometers for simple cardiac checkups.</p>
+                    
+                    <div class="qualifications-grid">
+                        <div class="qual-card">
+                            <div class="qual-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.49 12c.18-.09.38-.17.58-.24.79-.26 1.7-.42 2.68-.51 1.04-.09 2.15-.14 3.25-.14 1.1 0 2.21.05 3.25.14.98.09 1.89.25 2.68.51.2.07.4.15.58.24L12 15.22 5.49 12zm8.51 5.86c-.6.09-1.32.14-2 .14s-1.4-.05-2-.14v-1.7c.6.09 1.32.14 2 .14s1.4-.05 2-.14v1.7z"/>
+                                </svg>
+                            </div>
+                            <div class="qual-info">
+                                <strong>Qualifications</strong>
+                                <span>MBBS, MD (Medicine), DM (Cardiology)</span>
+                            </div>
+                        </div>
+
+                        <div class="qual-card">
+                            <div class="qual-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                                </svg>
+                            </div>
+                            <div class="qual-info">
+                                <strong>Specializations</strong>
+                                <span>Heart Attacks, High BP, Blockage, Echo, ECG</span>
+                            </div>
+                        </div>
+
+                        <div class="qual-card">
+                            <div class="qual-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                                </svg>
+                            </div>
+                            <div class="qual-info">
+                                <strong>Experience</strong>
+                                <span>18+ Years (Former Senior Consultant in City Hospitals)</span>
+                            </div>
+                        </div>
+
+                        <div class="qual-card">
+                            <div class="qual-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                                </svg>
+                            </div>
+                            <div class="qual-info">
+                                <strong>Certifications</strong>
+                                <span>Fellow of Cardiological Society of India (CSI)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mission-box">
+                        <span class="mission-title">Our Medical Mission:</span>
+                        <p class="mission-text">To prevent sudden heart failures in rural populations through early screening, affordable tests, correct medication guidance, and patient-first compassionate education.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Cardiac Treatments & Diagnostics</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Comprehensive tests and heart checkups available directly at our clinic at affordable prices.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Heart Checkup -->
+                <div class="service-card">
+                    <div class="service-icon service-blue">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Complete Heart Checkup</h3>
+                    <p class="service-desc">A detailed evaluation of your heart rhythm, valve function, and risk factors by the doctor to prevent future heart problems.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 2: ECG -->
+                <div class="service-card">
+                    <div class="service-icon service-red">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">ECG (Electrocardiogram)</h3>
+                    <p class="service-desc">Instant computerized 12-lead ECG test to record your heart's electrical signals and diagnose irregular beats or attacks.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 3: 2D Echo -->
+                <div class="service-card">
+                    <div class="service-icon service-blue">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">2D Echo Test</h3>
+                    <p class="service-desc">Modern ultrasound imaging of the heart to check its pumping capacity (EF%), valve health, and structural defects.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 4: BP Monitoring -->
+                <div class="service-card">
+                    <div class="service-icon service-red">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Blood Pressure Monitoring</h3>
+                    <p class="service-desc">Accurate BP checkups and customized medicine dosage setting to prevent strokes and long-term kidney or heart failures.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 5: Diabetes Screening -->
+                <div class="service-card">
+                    <div class="service-icon service-blue">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Diabetes Heart Risk Screening</h3>
+                    <p class="service-desc">Sugar level testing coupled with heart evaluation, as diabetic patients run a 3x higher risk of silent heart attacks.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 6: Chest Pain Evaluation -->
+                <div class="service-card">
+                    <div class="service-icon service-red">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Chest Pain Evaluation</h3>
+                    <p class="service-desc">Immediate diagnostic review for chest pain, heavy breathing, or jaw pain to rule out emergency blocks.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 7: Preventive Care -->
+                <div class="service-card">
+                    <div class="service-icon service-blue">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Preventive Heart Care</h3>
+                    <p class="service-desc">Personalized food plans, walking goals, and basic daily lifestyle alterations tailored for rural working patterns.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Service 8: Emergency Care -->
+                <div class="service-card">
+                    <div class="service-icon service-red">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                            <path d="M19 10.5h-5.5V5h-3v5.5H5v3h5.5V19h3v-5.5H19v-3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Emergency Cardiac Guidance</h3>
+                    <p class="service-desc">Immediate telephone advice and fast clinical stabilization for patients suffering acute heart distress before city transfer.</p>
+                    <a href="#appointment" class="service-link">
+                        Book Test
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag tag-white">Our Strengths</span>
+                <h2 class="section-title text-white">Why Patients Trust Dr. Arvind Sharma</h2>
+                <div class="section-divider divider-white"></div>
+                <p class="section-subtitle text-white-muted">Designed specifically to provide high-quality heart treatments near your village without city-hospital expenses.</p>
+            </div>
+
+            <div class="why-grid">
+                <!-- Item 1: Experienced Doctor -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Experienced Doctor</h3>
+                    <p class="why-card-text">Direct diagnosis by Dr. Arvind Sharma, holding MD and DM (Cardiology) degrees and 18+ years of expert cardiac knowledge.</p>
+                </div>
+
+                <!-- Item 2: Affordable Treatment -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Affordable Treatment</h3>
+                    <p class="why-card-text">Very reasonable test fees and low medicine costs, keeping treatments accessible for farming and rural working households.</p>
+                </div>
+
+                <!-- Item 3: Modern Equipment -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Modern Equipment</h3>
+                    <p class="why-card-text">Equipped with digital multi-channel ECG systems, state-of-the-art 2D Echo, and fast pathology analyzers in-clinic.</p>
+                </div>
+
+                <!-- Item 4: Village-Friendly Care -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Village-Friendly Care</h3>
+                    <p class="why-card-text">We explain medical reports using simple local dialects. No complex jargon; we make sure you understand your heart state.</p>
+                </div>
+
+                <!-- Item 5: Emergency Support -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Emergency Support</h3>
+                    <p class="why-card-text">Immediate telephone first-aid advice from our team during sudden heart distress. Safe referrals to partner hospitals.</p>
+                </div>
+
+                <!-- Item 6: Personalized Attention -->
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Personalized Attention</h3>
+                    <p class="why-card-text">We listen to your health history patiently. The doctor spends adequate consultation time with every patient.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLINIC FACILITIES SECTION -->
+    <section class="facilities-section" id="facilities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Infrastructure</span>
+                <h2 class="section-title">Clinic Facilities</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">A neat, hygienic, and well-designed environment with diagnostic capabilities.</p>
+            </div>
+
+            <div class="facilities-grid">
+                <!-- Facility 1: Waiting Area -->
+                <div class="facility-card waiting-area">
+                    <div class="facility-icon-circle">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="facility-name">Comfortable Waiting Area</h3>
+                    <p class="facility-desc">Spacious seating arrangement with cooler drinking water, clean environment, and ceiling fans to keep you comfortable.</p>
+                </div>
+
+                <!-- Facility 2: Consultation Room -->
+                <div class="facility-card consultation-room">
+                    <div class="facility-icon-circle">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="facility-name">Private Consultation Room</h3>
+                    <p class="facility-desc">An air-conditioned and private doctor's room where you can discuss your health details with full privacy and trust.</p>
+                </div>
+
+                <!-- Facility 3: ECG Room -->
+                <div class="facility-card ecg-room">
+                    <div class="facility-icon-circle">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="facility-name">Modern ECG Room</h3>
+                    <p class="facility-desc">Equipped with highly accurate digital electrocardiograms. Reports are generated instantly for immediate assessment.</p>
+                </div>
+
+                <!-- Facility 4: Pharmacy -->
+                <div class="facility-card pharmacy-room">
+                    <div class="facility-icon-circle">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M19 10.5h-5.5V5h-3v5.5H5v3h5.5V19h3v-5.5H19v-3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="facility-name">In-House Pharmacy</h3>
+                    <p class="facility-desc">Provides certified, high-quality cardiovascular medications and blood pressure control tablets at discounted rates.</p>
+                </div>
+
+                <!-- Facility 5: Emergency Bed -->
+                <div class="facility-card emergency-bed">
+                    <div class="facility-icon-circle">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="facility-name">Emergency Stabilization Bed</h3>
+                    <p class="facility-desc">Equipped with vital monitoring systems, oxygen cylinders, and emergency injections to handle critical pressure fluctuations.</p>
+                </div>
+
+                <!-- Facility 6: Diagnostic Equipment -->
+                <div class="facility-card diagnostics-room">
+                    <div class="facility-icon-circle">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="facility-name">Advanced Heart Diagnostics</h3>
+                    <p class="facility-desc">High-resolution 2D Echocardiography machines and on-site lab analyzers to guarantee precise diagnostic outputs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Real experiences shared by patients from local villages and surrounding towns.</p>
+            </div>
+
+            <!-- Carousel Wrapper -->
+            <div class="testimonial-carousel-container">
+                <button class="carousel-control prev" id="carouselPrev" aria-label="Previous Slide">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M15.41 16.58L10.83 12l4.58-4.58L14 6l-6 6 6 6 1.41-1.42z"/>
+                    </svg>
+                </button>
+                
+                <div class="testimonial-carousel-track-wrapper">
+                    <div class="testimonial-carousel-track" id="carouselTrack">
+                        
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="quote-icon">“</div>
+                                <p class="testimonial-text">My father was experiencing sudden chest sweating and tightness. We rushed him to Dr. Arvind Sharma's clinic. The doctor did an ECG immediately, diagnosed a block, gave emergency medicine, and guided us to a city hospital. He saved my father's life!</p>
+                                <div class="patient-info">
+                                    <div class="patient-avatar">RK</div>
+                                    <div>
+                                        <h4 class="patient-name">Ramesh Kumar</h4>
+                                        <span class="patient-village">Village: Patonda (Farmer)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="quote-icon">“</div>
+                                <p class="testimonial-text">Dr. Sharma is like a god for our village. Earlier we had to travel 120km to the state capital for a heart Echo test. Now we get it done here at half the cost. The doctor explains the reports in simple Hindi. Very satisfied!</p>
+                                <div class="patient-info">
+                                    <div class="patient-avatar">SD</div>
+                                    <div>
+                                        <h4 class="patient-name">Savita Devi</h4>
+                                        <span class="patient-village">Village: Pimparkhed (Housewife)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="quote-icon">“</div>
+                                <p class="testimonial-text">I had severe high blood pressure and headache for two years. Other clinics only gave painkillers. Dr. Sharma did a complete checkup, set the exact dosage of BP tablets, and now my pressure is fully normal. I feel young again.</p>
+                                <div class="patient-info">
+                                    <div class="patient-avatar">HR</div>
+                                    <div>
+                                        <h4 class="patient-name">Hari Ram</h4>
+                                        <span class="patient-village">Village: Chalisgaon (Shopkeeper)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="quote-icon">“</div>
+                                <p class="testimonial-text">Excellent heart checkup. The staff is very polite, they help elderly people sit comfortably and drink water. The medicines in the clinic pharmacy are cheaper than outside shops. Recommend to everyone.</p>
+                                <div class="patient-info">
+                                    <div class="patient-avatar">SS</div>
+                                    <div>
+                                        <h4 class="patient-name">Suman Singh</h4>
+                                        <span class="patient-village">Village: Chalisgaon (Retired Teacher)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="quote-icon">“</div>
+                                <p class="testimonial-text">Dr. Sharma is extremely honest. He told me my heart is completely healthy and my chest pain was only due to gas. He did not write unnecessary expensive medicines. That shows his genuine character.</p>
+                                <div class="patient-info">
+                                    <div class="patient-avatar">RP</div>
+                                    <div>
+                                        <h4 class="patient-name">Rajesh Patel</h4>
+                                        <span class="patient-village">Village: Shindi (Labourer)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 6 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="quote-icon">“</div>
+                                <p class="testimonial-text">My mother had swelling in her feet and could not walk. The 2D Echo showed weak heart pumping. With Dr. Sharma's specialized heart medicines, the swelling is 90% gone and she walks daily now. Thank you, doctor.</p>
+                                <div class="patient-info">
+                                    <div class="patient-avatar">GV</div>
+                                    <div>
+                                        <h4 class="patient-name">Geeta Verma</h4>
+                                        <span class="patient-village">Village: Daskebardi (Home Maker)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="carousel-control next" id="carouselNext" aria-label="Next Slide">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Dots Navigation -->
+            <div class="carousel-dots" id="carouselDots">
+                <!-- Javascript will inject dots dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOK APPOINTMENT SECTION -->
+    <section class="appointment-section" id="appointment">
+        <div class="container appointment-container">
+            <div class="appointment-info">
+                <span class="appointment-tag">Quick Booking</span>
+                <h2 class="appointment-title">Book a Visit to the Doctor</h2>
+                <p class="appointment-subtitle">Fill in the simple form below. Our clinic receptionist will call you within 1 hour to confirm your appointment time and token number.</p>
+                
+                <div class="booking-notes">
+                    <div class="note-item">
+                        <div class="note-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="var(--primary)">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                        </div>
+                        <span><strong>No Payment Required Online:</strong> Pay fees directly at the counter during your visit.</span>
+                    </div>
+                    <div class="note-item">
+                        <div class="note-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="var(--primary)">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                        </div>
+                        <span><strong>Bilingual Assistance:</strong> If you face issues with the form, simply call us directly.</span>
+                    </div>
+                </div>
+
+                <div class="appointment-quick-call">
+                    <span>Or call us immediately to book:</span>
+                    <a href="tel:+919876543210" class="call-banner-btn">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        +91 98765 43210
+                    </a>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="appointment-form-wrapper">
+                <form id="appointmentForm" class="appointment-form" novalidate>
+                    <h3 class="form-form-title">Patient Appointment Form</h3>
+                    
+                    <div id="formMessage" class="form-feedback-message" role="alert" style="display: none;"></div>
+
+                    <div class="form-row">
+                        <!-- Patient Name -->
+                        <div class="form-group">
+                            <label for="patientName" class="form-label">Full Name of Patient <span class="required">*</span></label>
+                            <input type="text" id="patientName" name="name" class="form-control" placeholder="Enter patient's full name" required>
+                            <span class="error-msg" id="nameError">Please enter the patient's name.</span>
+                        </div>
+
+                        <!-- Mobile Number -->
+                        <div class="form-group">
+                            <label for="patientMobile" class="form-label">Mobile Number <span class="required">*</span></label>
+                            <input type="tel" id="patientMobile" name="mobile" class="form-control" placeholder="Enter 10-digit mobile number" required>
+                            <span class="error-msg" id="mobileError">Please enter a valid 10-digit mobile number.</span>
+                        </div>
+                    </div>
+
+                    <div class="form-row flex-three">
+                        <!-- Age -->
+                        <div class="form-group">
+                            <label for="patientAge" class="form-label">Age <span class="required">*</span></label>
+                            <input type="number" id="patientAge" name="age" class="form-control" placeholder="Years" min="1" max="120" required>
+                            <span class="error-msg" id="ageError">Enter a valid age (1-120).</span>
+                        </div>
+
+                        <!-- Gender -->
+                        <div class="form-group">
+                            <label for="patientGender" class="form-label">Gender <span class="required">*</span></label>
+                            <select id="patientGender" name="gender" class="form-control" required>
+                                <option value="" disabled selected>Select</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span class="error-msg" id="genderError">Please select gender.</span>
+                        </div>
+
+                        <!-- Village Name -->
+                        <div class="form-group">
+                            <label for="patientVillage" class="form-label">Village / Town <span class="required">*</span></label>
+                            <input type="text" id="patientVillage" name="village" class="form-control" placeholder="Village name" required>
+                            <span class="error-msg" id="villageError">Please enter your village name.</span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <!-- Preferred Date -->
+                        <div class="form-group">
+                            <label for="patientDate" class="form-label">Preferred Date of Visit <span class="required">*</span></label>
+                            <input type="date" id="patientDate" name="date" class="form-control" required>
+                            <span class="error-msg" id="dateError">Please choose a valid future date.</span>
+                        </div>
+                        
+                        <!-- Symptoms / Reason -->
+                        <div class="form-group">
+                            <label for="patientSymptoms" class="form-label">Describe Health Issues (Optional)</label>
+                            <select id="patientSymptoms" name="symptoms" class="form-control">
+                                <option value="" selected>Choose main issue...</option>
+                                <option value="Chest Pain">Chest Pain / Gas Pain</option>
+                                <option value="High Blood Pressure">High Blood Pressure Check</option>
+                                <option value="Palpitations">Rapid Heartbeat / Ghabrahat</option>
+                                <option value="Breathing Trouble">Shortness of Breath / Breathing issues</option>
+                                <option value="Routine Heart Checkup">Routine Heart Checkup</option>
+                                <option value="2D Echo/ECG">Specifically for ECG or Echo Test</option>
+                                <option value="Other">Other issues</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block btn-submit">
+                        <span>Book Appointment Now</span>
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMERGENCY CONTACT BANNER SECTION -->
+    <section class="emergency-contact-section">
+        <div class="container emergency-contact-grid">
+            <div class="emergency-banner-info">
+                <span class="emergency-tag-red">Emergency Services</span>
+                <h2 class="emergency-banner-title">Is it a Heart Emergency?</h2>
+                <p class="emergency-banner-text">If someone is having constant chest pain, heavy sweating, choking, or left-arm pain, do not wait. Every minute is vital. Call our emergency doctor line or send a message on WhatsApp for immediate guide.</p>
+            </div>
+            
+            <div class="emergency-banner-buttons">
+                <a href="tel:+919876543210" class="btn btn-accent btn-lg btn-emergency-cta">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    Call Hospital Now
+                </a>
+                
+                <a href="https://wa.me/919876543210?text=Emergency%20Heart%20Care%20Required" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg btn-emergency-cta">
+                    <!-- Custom WhatsApp SVG Icon -->
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                        <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.335 4.978L2 22l5.197-1.36a9.94 9.94 0 0 0 4.814 1.24h.005c5.504 0 9.99-4.478 9.99-9.984 0-2.67-1.04-5.18-2.93-7.07a9.9 9.9 0 0 0-7.074-2.826zm-5.69 14.153l-.326-.518a8.31 8.31 0 0 1-1.272-4.498c.002-4.59 3.738-8.322 8.332-8.322a8.27 8.27 0 0 1 5.886 2.44 8.28 8.28 0 0 1 2.44 5.892c0 4.59-3.738 8.322-8.332 8.322a8.27 8.27 0 0 1-4.223-1.157l-.303-.18-3.138.82.835-3.056l.001-.003zm9.645-5.51c-.267-.134-1.583-.78-1.827-.869-.244-.09-.42-.134-.596.134-.176.268-.68.868-.834 1.047-.153.178-.306.2-.573.067-.267-.134-1.127-.415-2.147-1.325-.794-.707-1.33-1.58-1.485-1.848-.155-.268-.016-.413.118-.546.12-.12.267-.312.4-.468.133-.156.177-.268.266-.446.09-.178.045-.335-.022-.469-.067-.134-.596-1.436-.817-1.97-.215-.519-.47-.448-.596-.448-.153-.008-.328-.008-.504-.008-.176 0-.462.066-.703.328-.242.263-.923.903-.923 2.197s.946 2.545 1.077 2.724c.133.179 1.861 2.841 4.508 3.983.63.272 1.12.434 1.503.556.633.2 1.21.172 1.666.104.508-.076 1.583-.647 1.807-1.272.224-.624.224-1.16.157-1.27-.067-.11-.244-.178-.51-.312z"/>
+                    </svg>
+                    Send WhatsApp Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION, FAQ, AND WORKING HOURS -->
+    <section class="location-faq-section" id="contact">
+        <div class="container">
+            <div class="location-faq-grid">
+                
+                <!-- Left: FAQ Accordion -->
+                <div class="faq-area">
+                    <span class="section-tag">Common Doubts</span>
+                    <h2 class="section-title text-left">Frequently Asked Questions</h2>
+                    <div class="section-divider divider-left"></div>
+                    
+                    <div class="faq-accordion">
+                        
+                        <!-- FAQ 1 -->
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+                                <span>When should I visit a heart doctor?</span>
+                                <span class="faq-toggle-icon">+</span>
+                            </button>
+                            <div class="faq-answer" id="faq1" aria-hidden="true">
+                                <p>You should visit a cardiologist if you experience frequent chest pain, breathlessness while walking, sudden palpitations (ghabrahat), ankle swelling, or recurrent dizziness. People with diabetes, high BP, or a family history of heart attacks should also undergo routine screening.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+                                <span>What is an ECG test and why is it done?</span>
+                                <span class="faq-toggle-icon">+</span>
+                            </button>
+                            <div class="faq-answer" id="faq2" aria-hidden="true">
+                                <p>An ECG (Electrocardiogram) is a quick, painless test that records the electrical activity of your heart. It helps the doctor detect if your heart is beating too fast, too slow, or irregularly, and reveals signs of a current or previous heart attack.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+                                <span>How can I book an appointment?</span>
+                                <span class="faq-toggle-icon">+</span>
+                            </button>
+                            <div class="faq-answer" id="faq3" aria-hidden="true">
+                                <p>You can book an appointment easily by filling out our online form on this website. Alternatively, you can call us directly on our clinic phone number (+91 98765 43210). We will provide you with a consultation time slot and token number.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+                                <span>Do you treat high blood pressure?</span>
+                                <span class="faq-toggle-icon">+</span>
+                            </button>
+                            <div class="faq-answer" id="faq4" aria-hidden="true">
+                                <p>Yes, blood pressure management is one of our primary services. Dr. Arvind Sharma conducts detailed checks to evaluate long-term pressure trends, adjusts your medication dosages, and suggests simple diet plans to keep your blood pressure stable.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq5">
+                                <span>What documents or records should I bring?</span>
+                                <span class="faq-toggle-icon">+</span>
+                            </button>
+                            <div class="faq-answer" id="faq5" aria-hidden="true">
+                                <p>Please bring all your previous medical prescriptions, blood test reports, ECG sheets, and a list of all your ongoing medications (or the tablet wrappers). This helps the doctor understand your health background instantly.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right: Location, Contact & Working Hours -->
+                <div class="location-area">
+                    <span class="section-tag">Find Us</span>
+                    <h2 class="section-title text-left">Clinic Location & Hours</h2>
+                    <div class="section-divider divider-left"></div>
+
+                    <div class="location-details-card">
+                        
+                        <div class="address-box">
+                            <div class="address-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                            </div>
+                            <div class="address-info">
+                                <strong>Clinic Address:</strong>
+                                <p>Spandan Heart Clinic, Main Road, Block Chowk</p>
+                                <p>Near Government Referral Hospital, District jalgaon</p>
+                                <p><strong>Landmark:</strong> Opposite State Bank of India (SBI) Branch</p>
+                            </div>
+                        </div>
+
+                        <!-- Working Hours Grid -->
+                        <div class="hours-box">
+                            <strong>Working Hours:</strong>
+                            <ul class="hours-list">
+                                <li><span>Monday – Saturday:</span> <strong>9:00 AM – 5:00 PM</strong></li>
+                                <li><span>Sunday:</span> <strong class="closed-label">Emergency Call Only</strong></li>
+                            </ul>
+                        </div>
+
+                        <!-- Interactive Map Wrapper -->
+                        <div class="map-wrapper">
+                            <!-- Clean Stylized Map Placeholder representing an embedded Map -->
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115161.76449102431!2d85.0743603417937!3d25.61988899882265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed585c33d69131%3A0xc4ebae95b055375d!2sPatna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="220" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                aria-label="Google Map showing clinic location">
+                            </iframe>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            
+            <!-- Column 1: Brand Info -->
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 100 100" width="36" height="36">
+                        <circle cx="50" cy="50" r="45" fill="var(--primary-light)"/>
+                        <path d="M15 50h15l8-25 10 50 8-35 8 15h21" fill="none" stroke="var(--secondary)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="footer-clinic-name">Spandan Heart Clinic</span>
+                </div>
+                <p class="footer-desc">Dedicated cardiac wellness services in rural environments. Providing early diagnostic tests like ECG, blood sugar, and 2D Echo under expert guidance.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1V12h3v3h-3v6.8c4.56-.93 8-4.96 8-9.8z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.107C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.388.511a3.002 3.002 0 0 0-2.11 2.107C0 8.053 0 12 0 12s0 3.947.502 5.837a3.003 3.003 0 0 0 2.11 2.107c1.883.511 9.388.511 9.388.511s7.505 0 9.388-.511a3.002 3.002 0 0 0 2.11-2.107c.502-1.89.502-5.837.502-5.837s0-3.947-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.335 4.978L2 22l5.197-1.36a9.94 9.94 0 0 0 4.814 1.24h.005c5.504 0 9.99-4.478 9.99-9.984 0-2.67-1.04-5.18-2.93-7.07a9.9 9.9 0 0 0-7.074-2.826zm-5.69 14.153l-.326-.518a8.31 8.31 0 0 1-1.272-4.498c.002-4.59 3.738-8.322 8.332-8.322a8.27 8.27 0 0 1 5.886 2.44 8.28 8.28 0 0 1 2.44 5.892c0 4.59-3.738 8.322-8.332 8.322a8.27 8.27 0 0 1-4.223-1.157l-.303-.18-3.138.82.835-3.056l.001-.003zm9.645-5.51c-.267-.134-1.583-.78-1.827-.869-.244-.09-.42-.134-.596.134-.176.268-.68.868-.834 1.047-.153.178-.306.2-.573.067-.267-.134-1.127-.415-2.147-1.325-.794-.707-1.33-1.58-1.485-1.848-.155-.268-.016-.413.118-.546.12-.12.267-.312.4-.468.133-.156.177-.268.266-.446.09-.178.045-.335-.022-.469-.067-.134-.596-1.436-.817-1.97-.215-.519-.47-.448-.596-.448-.153-.008-.328-.008-.504-.008-.176 0-.462.066-.703.328-.242.263-.923.903-.923 2.197s.946 2.545 1.077 2.724c.133.179 1.861 2.841 4.508 3.983.63.272 1.12.434 1.503.556.633.2 1.21.172 1.666.104.508-.076 1.583-.647 1.807-1.272.224-.624.224-1.16.157-1.27-.067-.11-.244-.178-.51-.312z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col links-col">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Doctor</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#facilities">Clinic Facilities</a></li>
+                    <li><a href="#testimonials">Patient Reviews</a></li>
+                    <li><a href="#appointment">Book Appointment</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact Info -->
+            <div class="footer-col contact-col">
+                <h4 class="footer-title">Contact Us</h4>
+                <ul class="footer-contact-list">
+                    <li>
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <a href="mailto:info@spandanclinic.com">info@spandanclinic.com</a>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <span>Opposite SBI Bank, Main Road, Block Chowk</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p class="copyright">&copy; 2026 Spandan Heart Clinic. All Rights Reserved.</p>
+                <p class="designer-credits">Designed for Trust & Accessibility</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <!--<script src="script.js"></script> -->
+    <script src="script.js" defer></script>
+</body>
+</html>
